@@ -20,7 +20,7 @@
 digital_risk_app/
 ├── app.py                  # Основной файл Streamlit (веб-приложение)
 ├── rf_model.pkl            # Обученная модель Random Forest
-├── requirements.txt        # Зависимости для деплоя
+├── requirements.txt        # Перечень необходимых библиоте
 ├── Students_Social_Media_Addiction.csv  # Исходный датасет 
 └── README.md
 
@@ -30,12 +30,13 @@ digital_risk_app/
 1. Склонируй репозиторий:
 https://github.com/aNeChKa21/-1.git
 
-3. Создай и активируй виртуальное окружение :
+2. Создай и активируй виртуальное окружение :
 -m venv venv
-# на Windows:
-venv\Scripts\activate
-# на Mac/Linux:
-source venv/bin/activate
+     # на Windows:
+     venv\Scripts\activate
+     # на Mac/Linux:
+     source venv/bin/activate
+
 
 3. Установи зависимости:
 pip install -r requirements.txt
